@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #f5f5f5;
+  background: #0a8fb1;
   color: #222;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -33,4 +33,90 @@ main {
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
+}
+
+h2 {
+  margin: 0;
+  font-size: clamp(4rem, 10vw, 7rem);
+  line-height: 0.9;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #c50f5b; /* bright accent */
+}
+
+.content > p {
+  margin: 0;
+  color: #95a2cf;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  line-height: 1.4;
+}
+#interests {
+  margin-top: 32px;
+  width: 100%;
+}
+
+#interests h3 {
+  margin: 0 0 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #e94560;
+}
+
+#interests ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#interests li {
+  color: #555;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  background: #ffe8ec;
+  border: 1px solid #ddd;
+  border-color: #e94560;
+  border-radius: 100px;
+  color: #e94560;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+  cursor: default;
+}
+
+#interests li:hover {
+  background: #e94560;
+  color: #fff;
+  border-color: #000000;
+  transform: translateY(-2px);
+}
+
+.sidebar-img {
+  width: 100%;
+  max-width: 760px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+  filter: grayscale(100%);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  transition:
+    filter 0.4s ease,
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.sidebar-img:hover {
+  filter: grayscale(0%);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
 }
