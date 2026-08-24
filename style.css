@@ -42,7 +42,7 @@ h2 {
   font-weight: 900;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  color: #29f5c9; /* bright accent */
+  color: #7c24e2; /* bright accent */
 }
 
 .content > p {
@@ -64,7 +64,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #000000;
+  color: #7c24e2;
 }
 
 #interests ul {
@@ -81,11 +81,11 @@ h2 {
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
-  background: #ffe8ec;
+  background: #ffffff;
   border: 1px solid #ddd;
   border-color: #000000;
   border-radius: 100px;
-  color: #50242b;
+  color: #000000;
   transition:
     background 0.25s ease,
     color 0.25s ease,
@@ -94,7 +94,7 @@ h2 {
 }
 
 #interests li:hover {
-  background: #0b5180;
+  background: #073452;
   color: #fff;
   border-color: #000000;
   transform: translateY(-2px);
@@ -138,7 +138,7 @@ nav h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #050505;
+  color: #020202;
 }
 
 #nav-ul {
@@ -150,7 +150,7 @@ nav h1 {
 }
 
 .nav-li a {
-  color: #3a3939;
+  color: #000000;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
