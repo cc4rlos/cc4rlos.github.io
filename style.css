@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #0a8fb1;
+  background: #1284a0;
   color: #222;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -94,7 +94,7 @@ h2 {
 }
 
 #interests li:hover {
-  background: #073452;
+  background: #4c178a;
   color: #fff;
   border-color: #000000;
   transform: translateY(-2px);
@@ -127,7 +127,7 @@ nav {
   align-items: center;
   margin-bottom: 48px;
   padding: 16px 24px;
-  background: #6161df;
+  background: #7c24e2;
   border: 1px solid #e0e0e0;
   border-radius: 12px;
 }
