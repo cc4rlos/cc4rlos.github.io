@@ -42,7 +42,7 @@ h2 {
   font-weight: 900;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  color: #7c24e2; /* bright accent */
+  color: #000000; /* bright accent */
 }
 
 .content > p {
@@ -64,7 +64,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #7c24e2;
+  color: #000000;
 }
 
 #interests ul {
