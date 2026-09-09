@@ -48,7 +48,7 @@ $(function () {
 
     createPlatform(500, 175, 170, 20, "purple");
     // TODO 3 - Create Collectables
-    createCollectable("winner", 525, 140);
+    createCollectable("diamond", 525, 140, 0.9,);
 
     // TODO 4 - Create Cannons
 
