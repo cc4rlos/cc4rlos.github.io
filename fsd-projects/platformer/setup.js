@@ -103,4 +103,7 @@ var collectableList = {
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
   winner: { image: "images/collectables/winner.png" },
+  roundgem: { image: "images/collectables/roundGem.png" },
+  starGem: { image: "images/collectables/starGem.png"},
+  heartgem: { image: "images/collectables/heartGem.png"}
 };
