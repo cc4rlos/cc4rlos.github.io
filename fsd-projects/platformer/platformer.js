@@ -33,7 +33,7 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    toggleGrid();
+    //  toggleGrid();
 
     // TODO 2 - Create Platforms
     createPlatform(200, 640, 150, 20, "purple");
@@ -47,6 +47,8 @@ $(function () {
     createPlatform(800, 260, 200, 20, "purple");
 
     createPlatform(500, 175, 170, 20, "purple");
+
+    // createPlatform(0, 200, 200, 20, "purple");
     // TODO 3 - Create Collectables
     createCollectable("starGem", 525, 125, 0.5);
 
@@ -58,17 +60,18 @@ $(function () {
 
     createCollectable("roundgem", 1300, 680, 0.8)
 
-    createCollectable("heartgem", 1300, 600, 1)
+    // createCollectable("heartgem", 1300, 600, 1)
     // TODO 4 - Create Cannons
     createCannon("right",400, 2000)
 
-    createCannon("left",550, 2000)
+    createCannon("left",475, 2000)
 
     createCannon("top", 800, 1300)
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
   }
+
 
   registerSetup(setup);
 });
