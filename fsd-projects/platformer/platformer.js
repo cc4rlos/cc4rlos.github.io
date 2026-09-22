@@ -33,7 +33,7 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+    toggleGrid();
 
     // TODO 2 - Create Platforms
     createPlatform(200, 640, 150, 20, "purple");
@@ -57,6 +57,8 @@ $(function () {
     createCollectable ("roundgem", 250, 585, 0.5)
 
     createCollectable("roundgem", 1300, 680, 0.8)
+
+    createCollectable("heartgem", 1300, 600, 1)
     // TODO 4 - Create Cannons
     createCannon("right",400, 2000)
 
